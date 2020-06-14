@@ -40,7 +40,7 @@ pipeline {
 				[
 					artifactId: 'helloworls',
 					classifier: '', 
-					file: 'dist/helloworls-0.0.3.tar.gz',
+					file: 'dist/helloworls-test.tar.gz',
 					type: 'tar.gz'
 				]
 			], 
@@ -50,9 +50,8 @@ pipeline {
 			nexusVersion: 'nexus3',
 			protocol: 'http',
 			repository: 'Nexus_Maven_Py_2',
-			version: '0.0.3'
+			version: '0.test.1'
 			}
    }
-}
 }
 }
