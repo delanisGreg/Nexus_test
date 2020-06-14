@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
         name='helloworls',
         inclide_package_data=True,
-        version='0.test.2',
+        version='0.test.3',
         description='Hello!',
         py_module=["hello"],
         packages=['src'],
