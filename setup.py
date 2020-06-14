@@ -9,7 +9,7 @@ setup(
         packages=['src'],
         package_data={
         'src': ['dockerfile'],
-        '':['gregdelanis/hello_py:1.0'],
+        "": ["*.*"],
         },
         package_dir={'src':'src'},
 )
