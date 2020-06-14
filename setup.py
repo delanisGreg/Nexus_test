@@ -9,7 +9,6 @@ setup(
         packages=['src'],
         package_data={
         'src': ['dockerfile'],
-        "": ["*.*"],
         },
         package_dir={'src':'src'},
 )
